@@ -8,6 +8,10 @@
 
 
 }
+.mouse{
+    height: 45px;
+    margin-top: 200px;
+}
 
 }
 .logo{
@@ -17,8 +21,9 @@
     text-align: center;
     padding-top: 150px; 
     padding-bottom: 150px;
-
-
+}
+.aboutus{
+    padding-bottom: 60px;
 }
 .services{
     text-align: center;
@@ -53,10 +58,6 @@
 
 }
 .product{
-    display: none;
-
-}
-.portfloio{
     display: none;
 
 }
