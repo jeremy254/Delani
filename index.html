@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="script.js">
+  
+    <title>Delani Studio</title>
+</head>
+<body>
+    <div class="container-px-4">
+        
+
+    <div class="welcome">
+        <img class="logo" src="/images/IP3-master/assets/logo/logo.png" alt="D-logo"><br><br><br>
+        <h1>WELCOME</h1><br>
+        <h1>TO DELANI STUDIO</h1><br>
+        <P>AMAZING PEOPLE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</P>
+    </div>
+
+    <div class="about">
+        <h3>ABOUT US</h3>
+        <p>When you work with us you are part of a team of committed collaborators. All aspects of our software development process are intergrated, interactive <br> and agile</p>
+        <p>Our approach unifies design, development and product management to create exceptional products.</p>
+        <p>We start each project by understanding your buisness goals, the users needs and the product requirements</p>
+        <p>Then we help translate them into effective and elegant solutions.</p>
+    </div>
+    <div class="services">
+    <h2>SERVICES</h2>
+        <p>Before we sign a contract or wrote a line of code our team will spend the necessary time needed to understand your product vision</p>
+        <p>The outcoe of this scoping session is proposal or high-level statements of work.</p>
+        <p>Based on your requirements, we can provide acomplete offering or just the pieces you need.</p>
+    </div>    
+
+    <h3 class="what" >WHAT WE DO</h3>
+    
+
+    <h7><strong>DESIGN</strong> </h7>
+        <img id="show1" src="/images/IP3-master/assets/services_icons/design_icon.png" alt="">
+            <P class="design">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</P>
+
+    <h7> <strong>DEVELOPMENT</strong> </h7>
+     <img id="show2" src="/images/IP3-master/assets/services_icons/dev_icon.png" alt="">
+         <P class="development">All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</P>
+
+    <h7><strong>PRODUCT MANAGEMENT</strong></h7>  
+         <img id="show3" src="/images/IP3-master/assets/services_icons/product_icon.png" alt="">
+              <P class="product"> Planning and development is interactive. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements evolve.</P>
+
+    <h3 class="portfolio" >PORTFOLIO</h3>
+
+    <img src="/images/IP3-master/assets/portfolio/work4.jpg" alt="">
+    <img src="/images/IP3-master/assets/portfolio/work3.jpg" alt="">
+    <img src="/images/IP3-master/assets/portfolio/work2.jpg" alt="">
+    <img src="/images/IP3-master/assets/portfolio/work1.jpg" alt="">
+    <img src="/images/IP3-master/assets/portfolio/work5.jpg" alt="">
+    <img src="/images/IP3-master/assets/portfolio/work6.jpg" alt="">
+    <img src="/images/IP3-master/assets/portfolio/work7.jpg" alt="">
+    <img src="/images/IP3-master/assets/portfolio/work8.jpg" alt="">
+     
+    <div class="contact">
+        <h2>CONTACT US</h2>
+
+        <form>
+            <div class="row">
+              <div class="col-3">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col-3">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+          </form>
+    </div>
+    <i></i>
+    </div>
+
+
+
+    <script>
+        $(document).ready(function() {
+    $("#show1").click(function() {
+      $(".design").toggle();
+     
+    });
+  });
+    
+  $(document).ready(function() {
+    $("#show2").click(function() {
+      $(".development").toggle();
+     
+    });
+  });
+  $(document).ready(function() {
+    $("#show3").click(function() {
+      $(".product").toggle();
+     
+    });
+  });
+    
+    
+    </script>
+</body>
+</html>
