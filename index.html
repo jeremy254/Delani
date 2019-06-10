@@ -108,47 +108,61 @@
 
     <div class="contact">
         <h2>CONTACT US</h2>
-     <div class="cont">
-
-        <form>
-            <div class="row">
-              <div class="col-4  ">
-                <input type="text" class="form-control" placeholder="Name...">
-              </div>
-              <div class="col-4 ">
-                <input type="text" class="form-control" placeholder="Email...">
-              </div>
+        <div class="row" id="contact">
+            <div class="col-md-4">
+              <form class="form" id="show">
+                <div class="form-block">
+                  <div class="form-group" id="forms">
+                    <input type="text" name="name" align="middle" id="name" class="form-control" value="" placeholder="Name">
+                    <input type="text" align="middle" name="email" id="email" class="form-control" value="" placeholder="Email">
+                    <br>
+                    <textarea rows="15" cols="59" type="textarea" id="comments" class="form-control" name="Comments" placeholder="Your message here..." value=""></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-primary submit">Submit</button>
+              </form>
+                  </div>
+                </div>
             </div>
-        </form>
-    </div>
-
-
-
+        </div>
+        <div class="row">
 
 
     <script>
-
-
     $(document).ready(function() {
-        $("#show1").click(function() {
-            $(".design").toggle();
-     
-    });
-  });
+    $("#show1").click(function() {
+    $(".design").toggle();
     
-  $(document).ready(function() {
+    });
+    });
+    
+    $(document).ready(function() {
     $("#show2").click(function() {
-      $(".development").toggle();
-     
+    $(".development").toggle();
+    
     });
-  });
-  $(document).ready(function() {
+    });
+    $(document).ready(function() {
     $("#show3").click(function() {
-      $(".product").toggle();
-     
+    $(".product").toggle();
+    
     });
-  });
+    });
+    $("form#show").submit(function(event) {
+ 
+ event.preventDefault();
+ var name = $.trim($('#name').val());
+ var email = $.trim($('#email').val());
+ if ((name === '') || (email === '')) {
+   alert('If you submit,you should enter at least name and email.');
+   return false;
+ } else {
+   alert("We have received your message.Thank you for reaching out for us");
+   $("#show")[0].reset();
+ }
+});
+    
     
     </script>
+
 </body>
 </html>
