@@ -47,7 +47,7 @@
     </div>    
 
 
-    <h3 class="what" >WHAT WE DO</h3>
+    <h3 class="what"> <strong>WHAT WE DO</strong> </h3>
     <div class="row">
 
        <div class="col-4">         
@@ -77,29 +77,29 @@
 
     <div class="row" id="portfolio">                                                  
                 <div class="col-md-3 grid ">
-                  <img src="images/IP3-master/assets/portfolio/work4.jpg" alt="portfolio one">
+                  <img id="image1" src="images/IP3-master/assets/portfolio/work4.jpg" alt="portfolio one">
                   </div>
 
         <div class="col-md-3 grid">
-            <img src="images/IP3-master/assets/portfolio/work3.jpg" alt="portfolio two">
+            <img id="image2" src="images/IP3-master/assets/portfolio/work3.jpg" alt="portfolio two">
               </div>
         <div class="col-md-3 grid">
-             <img src="images/IP3-master/assets/portfolio/work2.jpg" alt="orange-like crystals">
+             <img id="image3" src="images/IP3-master/assets/portfolio/work2.jpg" alt="orange-like crystals">
                 </div>
         <div class="col-md-3 grid">
-             <img src="images/IP3-master/assets/portfolio/work1.jpg" alt="prototype">
+             <img id="image4" src="images/IP3-master/assets/portfolio/work1.jpg" alt="prototype">
                </div>
         <div class="col-md-3 grid">
-            <img src="images/IP3-master/assets/portfolio/work5.jpg" alt="example page">
+            <img id="image5 " src="images/IP3-master/assets/portfolio/work5.jpg" alt="example page">
               </div>
         <div class="col-md-3 grid">
-             <img src="images/IP3-master/assets/portfolio/work6.jpg" alt="prototype">
+             <img id="image6" src="images/IP3-master/assets/portfolio/work6.jpg" alt="prototype">
                 </div>
         <div class="col-md-3 grid">
-              <img src="images/IP3-master/assets/portfolio/work7.jpg" alt="the burned logo mock-up">
+              <img id="image7" src="images/IP3-master/assets/portfolio/work7.jpg" alt="the burned logo mock-up">
                      </div>
         <div class="col-md-3 grid">
-            <img src="images/IP3-master/assets/portfolio/work8.jpg" alt="">
+            <img id="image8" src="images/IP3-master/assets/portfolio/work8.jpg" alt="">
                  </div>
      </div>
           
@@ -109,7 +109,7 @@
 
     <div class="contact">
         <h2>CONTACT US</h2>
-        <div class="row" id="contact">
+        <div class="row" class="contact">
             <div class="col-md-4">
               <form class="form" id="show">
                 <div class="form-block">
@@ -140,6 +140,9 @@
                 </div>
               </div>
               <div class="row"></div>
+
+
+
     <script>
     $(document).ready(function() {
     $("#show1").click(function() {
@@ -173,6 +176,10 @@
    $("#show")[0].reset();
  }
 });
+$("#image1").hover(function(){
+  $("#image1").css("background-color", "white",);
+});
+    
     
     
     </script>
