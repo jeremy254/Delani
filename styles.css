@@ -113,6 +113,27 @@
       width: 300px;
       height: 300px;
   }
+  #portfolio .grid:hover .caption {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    width: 300px;
+    height: 300px;
+    -moz-transform: translateY(100%);
+}
+#portfolio .grid .caption {
+    background-color:white;
+    position: absolute;
+    color: black;
+    opacity: 0.8;
+    z-index: 150;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    text-align: justify;
+    width: 300px;
+    height: 300px;
   
   .port{
       text-align: center;
