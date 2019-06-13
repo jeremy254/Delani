@@ -1,8 +1,8 @@
 #head {
-    background-image: url("/images/IP3-master/assets/backgrounds/h_img.jpg");
-    background-size: 100% 100%;
+    background-image: url("images/IP3-master/assets/backgrounds/h_img.jpg");
+    background-size: 2000px;
     text-align: center;
-    height: 602.44px;
+    height: 100%;
     padding: 0px;
     font-family: 'Rubik', sans-serif;
   }
@@ -42,7 +42,7 @@
   #services {
     text-align: center;
     color: white;
-    background-image: url("/images/IP3-master/assets/backgrounds/s_image.jpg");
+    background-image: url("images/IP3-master/assets/backgrounds/s_image.jpg");
     background-size: 100% 100%;
     height: 250px;
   }
@@ -96,7 +96,7 @@
   }
   }
   #portone{
-    background-image: url("/images/IP3-master/assets/portfolio/work4.jpg");
+    background-image: url("images/IP3-master/assets/portfolio/work4.jpg");
     background-size: 100% 100%;
   }
   #centered {
@@ -117,7 +117,7 @@
       background-color:white;
       position: absolute;
       color: black;
-      opacity: 0.8;
+      opacity: 0.6;
       z-index: 150;
       -webkit-transition: all 300ms ease-out;
       -moz-transition: all 300ms ease-out;
@@ -167,7 +167,7 @@
     width: 300px;
   }
   #forms {
-    background-image: url(/images/IP3-master/assets/backgrounds/c_image.jpg);
+    background-image: url("/images/IP3-master/assets/backgrounds/c_image.jpg");
     background-size: contain;
     margin-bottom: 35px;
   }
@@ -227,7 +227,7 @@
       background-color: transparent;
       border-color: white;
       border-width: thin;
-      color: white;
+      color: black;
       width:75px;
       margin-left: 15px;
       margin-right: 100px;
@@ -238,7 +238,7 @@
       background-color: transparent;
       border-color: white;
       border-width: thin;
-      color: white;
+      color: black;
       width: 75px;
       margin-right: 15px;
       margin-left: 15px;
@@ -249,7 +249,7 @@
       background-color: transparent;
       border-color: white;
       border-width: thin;
-      color: white;
+      color: black;
       width:350px;
       margin-left: 10px;
       margin-right: 10px;
